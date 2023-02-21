@@ -8,5 +8,5 @@
     <string name="calendar">Calendar</string>
     <string name="title">Regimen: Build Habits</string>
     <string name="about">About</string>
-    <string name="floating_desc">Button to add item</string>
+    <string name="floating_desc">Add item</string>
 </resources>
