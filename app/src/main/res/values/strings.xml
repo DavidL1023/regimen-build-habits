@@ -1,6 +1,12 @@
 <resources>
     <string name="app_name">Regimen</string>
-    <string name="habits">Habits</string>
+    <string name="home">Home</string>
     <string name="history">History</string>
     <string name="notes">Notes</string>
+    <string name="groups">Groups</string>
+    <string name="settings">Settings</string>
+    <string name="calendar">Calendar</string>
+    <string name="title">Regimen: Build Habits</string>
+    <string name="about">About</string>
+    <string name="floating_desc">Button to add item</string>
 </resources>
