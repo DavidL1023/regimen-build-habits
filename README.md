@@ -19,3 +19,5 @@ add drop down to about that says about
 get navigation rail working for tablet sizes
 
 list days overdue if u didnt confirm u completed, have an option to enable or disable having to confirm completion
+
+notes should be groupable, add empty text like facebook messenger has
