@@ -5,12 +5,12 @@
     <item android:id="@+id/toolCalendar"
         android:title="@string/calendar"
         android:icon="@drawable/ic_calendar"
-        app:showAsAction="always" />
+        app:showAsAction="ifRoom" />
 
     <item android:id="@+id/toolSettings"
         android:title="@string/settings"
         android:icon="@drawable/ic_settings"
-        app:showAsAction="always" />
+        app:showAsAction="ifRoom" />
 
 
 </menu>

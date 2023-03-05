@@ -10,14 +10,18 @@ night mode, include theme
 
 startup guide
 
+sorting button
+
 add about page
 
 custom toolbar font
 
-add drop down to about that says about
+add help menu
 
 get navigation rail working for tablet sizes
 
 list days overdue if u didnt confirm u completed, have an option to enable or disable having to confirm completion
 
 notes should be groupable, add empty text like facebook messenger has
+
+when you enter the mode of adding notes or a group, have the title change at the top and have a back button top left and shit like that
