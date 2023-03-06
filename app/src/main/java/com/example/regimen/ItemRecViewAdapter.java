@@ -4,7 +4,6 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -35,7 +34,7 @@ public class ItemRecViewAdapter extends RecyclerView.Adapter<ItemRecViewAdapter.
         Item item = items.get(position);
         holder.itemName.setText(item.getName());
         holder.itemDate.setText(item.getDate());
-        holder.itemGroup.setText(item.getGroup());
+        holder.itemGroup.setText(item.getGroup().getName());
     }
 
     @Override
@@ -64,9 +63,6 @@ public class ItemRecViewAdapter extends RecyclerView.Adapter<ItemRecViewAdapter.
                 adapter.notifyItemRemoved(getAdapterPosition());
             });
 
-            itemView.findViewById(R.id.itemEdit).setOnClickListener(view -> {
-                //stuff
-            });
 
         }
 

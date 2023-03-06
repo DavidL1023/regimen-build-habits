@@ -14,20 +14,22 @@ import android.view.ViewGroup;
 
 import java.util.ArrayList;
 
-public class HomeFragment extends Fragment {
+public class PagesFragment extends Fragment {
 
-    public HomeFragment() {
+    public PagesFragment() {
         // Required empty public constructor
     }
 
     @Override
-    public void onCreate(Bundle savedInstanceState) { super.onCreate(savedInstanceState); }
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_home, container, false);
+        return inflater.inflate(R.layout.fragment_pages, container, false);
     }
 
     @Override
@@ -35,8 +37,8 @@ public class HomeFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
         //initializers
-        ArrayList<Item> itemArrayList = new ArrayList<>();
-        Item item = new Item("Test", new Group("hi", "hi"), "1/1/12");
+        ArrayList<Page> itemArrayList = new ArrayList<>();
+        Page item = new Page("Page", "Body", new Group("name", "color"));
         itemArrayList.add(item);
         itemArrayList.add(item);
         itemArrayList.add(item);
@@ -54,8 +56,8 @@ public class HomeFragment extends Fragment {
 
         RecyclerView recyclerView = view.findViewById(R.id.recyclerViewHome);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
-        ItemRecViewAdapter adapter = new ItemRecViewAdapter(getContext(), itemArrayList);
+        PageRecViewAdapter adapter = new PageRecViewAdapter(getContext(), itemArrayList);
         recyclerView.setAdapter(adapter);
-    }
 
+    }
 }

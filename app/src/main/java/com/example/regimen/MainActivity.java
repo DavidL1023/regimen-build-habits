@@ -4,7 +4,6 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
-import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
@@ -13,8 +12,6 @@ import android.widget.FrameLayout;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
-
-import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -46,8 +43,8 @@ public class MainActivity extends AppCompatActivity {
                 } else if (selected == R.id.navHistory) {
                     changeFragment(new HistoryFragment());
 
-                } else if (selected == R.id.navNotes) {
-                    changeFragment(new NotesFragment());
+                } else if (selected == R.id.navPages) {
+                    changeFragment(new PagesFragment());
 
                 } else if (selected == R.id.navGroups) {
                     changeFragment(new GroupsFragment());

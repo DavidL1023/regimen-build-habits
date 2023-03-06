@@ -4,10 +4,11 @@ import java.util.Date;
 
 public class Item {
     private String name;
-    private String group;
+    private Group group;
     private String date;
+    private String note;
 
-    public Item(String name, String group, String date) {
+    public Item(String name, Group group, String date) {
         this.name = name;
         this.group = group;
         this.date = date; //fix
@@ -21,11 +22,11 @@ public class Item {
         this.name = name;
     }
 
-    public String getGroup() {
+    public Group getGroup() {
         return group;
     }
 
-    public void setGroup(String group) {
+    public void setGroup(Group group) {
         this.group = group;
     }
 
@@ -37,4 +38,11 @@ public class Item {
         this.date = date;
     }
 
+    public String getNote() {
+        return note;
+    }
+
+    public void setNote(String note) {
+        this.note = note;
+    }
 }

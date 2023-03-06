@@ -2,13 +2,12 @@
     <string name="app_name">Regimen</string>
     <string name="home">Home</string>
     <string name="history">History</string>
-    <string name="notes">Notes</string>
+    <string name="pages">Pages</string>
     <string name="groups">Groups</string>
     <string name="settings">Settings</string>
     <string name="calendar">Calendar</string>
     <string name="title">Regimen: Build Habits</string>
     <string name="about">About</string>
     <string name="floating_desc">Add item</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>

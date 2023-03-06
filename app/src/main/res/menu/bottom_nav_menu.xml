@@ -12,9 +12,9 @@
         android:icon="@drawable/ic_history"
         app:showAsAction="ifRoom" />
 
-    <item android:id="@+id/navNotes"
-        android:title="@string/notes"
-        android:icon="@drawable/ic_notes"
+    <item android:id="@+id/navPages"
+        android:title="@string/pages"
+        android:icon="@drawable/ic_pages"
         app:showAsAction="ifRoom" />
 
     <item android:id="@+id/navGroups"
